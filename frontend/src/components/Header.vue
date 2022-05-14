@@ -2,23 +2,20 @@
   <div class="header">
     <ul class="nav">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <router-link class="nav-link active" aria-current="page" to="/"
+          >Home</router-link
+        >
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <router-link class="nav-link active" to="/login">로그인</router-link>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled">Disabled</a>
+        <router-link class="nav-link active" to="/regist">회원가입</router-link>
       </li>
     </ul>
   </div>
 </template>
 
-<script>
-  export default {};
-</script>
+<script></script>
 
 <style></style>
